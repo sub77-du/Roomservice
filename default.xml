@@ -10,7 +10,7 @@
           review="android-review.googlesource.com" />
 
  <remote  name="du"
-          fetch="https://github.com/DirtyUnicorns/"
+          fetch="ssh://git@github.com/DirtyUnicorns/"
           review="gerrit.dirtyunicorns.com" />
 
  <default revision="refs/tags/android-6.0.1_r43"
