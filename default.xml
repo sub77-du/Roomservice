@@ -413,6 +413,7 @@
  <!--hardware-->
  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="du" revision="m" />
  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="du" revision="m" />
+ <!--
  <project path="hardware/intel/audio_media" name="android_hardware_intel_audio_media" remote="du" revision="m-caf" />
  <project path="hardware/intel/bootstub" name="android_hardware_intel_bootstub" remote="du" revision="m-caf" />
  <project path="hardware/intel/common/bd_prov" name="android_hardware_intel_common_bd_prov" remote="du" revision="m-caf" />
@@ -427,6 +428,7 @@
  <project path="hardware/intel/img/psb_headers" name="android_hardware_intel_img_psb_headers" remote="du" revision="m-caf" />
  <project path="hardware/intel/img/psb_video" name="android_hardware_intel_img_psb_video" remote="du" revision="m-caf" />
  <project path="hardware/intel/sensors" name="android_hardware_intel_sensors" remote="du" revision="m-caf" />
+ -->
  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" revision="m-caf" />
  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="du" revision="m-caf" />
  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" revision="m-caf" remote="du" />
