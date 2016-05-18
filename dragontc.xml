@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <remote  name="sub"
+          fetch="ssh://git@github.com/sub77-du/" />
+
+	<remove-project name="android_build" />
+	<remove-project name="platform/frameworks/rs" />
+	<remove-project name="platform/prebuilts/ndk" />
+	
+  <project name="android_build" path="build" remote="sub" revision="m-caf-dtc" />
+  <project name="android_frameworks_rs" path="frameworks/rs" remote="sub" revision="master" />
+  <project name="android_prebuilts_ndk" path="prebuilts/ndk" remote="sub" revision="master" />
+  
+  <project name="Prebuilts" path="prebuilts/clang/linux-x86/host/3.9" remote="sub" revision="3.9" />
+</manifest>

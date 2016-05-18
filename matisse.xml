@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	 <remote name="sphere" fetch="ssh://git@git.sphere.ly/matisse" />
+  <!-- Device -->
+  <project name="android_device_samsung_matissewifi"                 path="device/samsung/matissewifi"     remote="sphere" revision="m-caf" />
+  <project name="android_device_samsung_matisse3g"                   path="device/samsung/matisse3g"       remote="sphere" revision="m-caf" />
+  <project name="android_device_samsung_matisselte"                  path="device/samsung/matisselte"      remote="sphere" revision="m-caf" />
+  <project name="android_device_samsung_matisse-common"              path="device/samsung/matisse-common"  remote="sphere" revision="m-caf" />
+  <project name="android_device_samsung_msm8226-common"              path="device/samsung/msm8226-common"  remote="sphere" revision="m-caf" />
+  <!-- Vendor -->
+  <project name="android_vendor_samsung_matisse3g"                   path="vendor/samsung/matisse3g"       remote="sphere" revision="m-caf" />
+  <project name="android_vendor_samsung_matissewifi"                 path="vendor/samsung/matissewifi"     remote="sphere" revision="m-caf" />
+  <project name="android_vendor_samsung_matisse-common"              path="vendor/samsung/matisse-common"  remote="sphere" revision="m-caf" />
+  <!-- Kernel -->
+  <project name="android_kernel_samsung_matisse"                     path="kernel/samsung/matisse"         remote="sphere" revision="m-caf" />
+  <project name="android_kernel_samsung_mondrianwifi"                path="kernel/samsung/mondrianwifi"    remote="sphere" revision="mm6.0-matisse" />
+  <!-- CM -->
+  <project name="android_device_samsung_qcom-common"                 path="device/samsung/qcom-common"     remote="du"     revision="m-caf" />
+  <project name="android_hardware_samsung"                           path="hardware/samsung"               remote="du"     revision="m-caf" />
+  <project name="android_external_stlport"                           path="external/stlport"               remote="du"     revision="m-caf" />
+  <project name="android_external_sony_boringssl-compat"             path="external/sony/boringssl-compat" remote="du"     revision="m-caf" />
+  <project name="android_packages_apps_SamsungServiceMode"           path="packages/apps/SamsungServiceMode" remote="du"     revision="m-caf" />
+ 
+  <project name="android_external_ant-wireless_ant_native"           path="external/ant-wireless/ant_native"       remote="du" revision="m-caf" />
+  <project name="android_external_ant-wireless_ant_service"          path="external/ant-wireless/ant_service"      remote="du" revision="m-caf" />
+  <project name="android_external_ant-wireless_antradio-library"     path="external/ant-wireless/antradio-library" remote="du" revision="m-caf" />
+  </manifest>

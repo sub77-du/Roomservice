@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	 <remote name="sphere" fetch="ssh://git@git.sphere.ly/matisse" />
+  <!-- Device -->
+  <project name="android_device_samsung_milletwifi"                 path="device/samsung/milletwifi"     remote="sphere" revision="m-caf" />
+  <project name="android_device_samsung_millet3g"                   path="device/samsung/millet3g"       remote="sphere" revision="m-caf" />
+  <project name="android_device_samsung_milletlte"                  path="device/samsung/milletlte"      remote="sphere" revision="m-caf" />
+  <project name="android_device_samsung_millet-common"              path="device/samsung/millet-common"  remote="sphere" revision="m-caf" />
+  <!-- Vendor -->
+  <project name="android_vendor_samsung_milletwifi"                 path="vendor/samsung/milletwifi"     remote="sphere" revision="m-caf" />
+  <project name="android_vendor_samsung_millet3g"                   path="vendor/samsung/millet3g"       remote="sphere" revision="m-caf" />
+  <project name="android_vendor_samsung_milletlte"                  path="vendor/samsung/milletlte"      remote="sphere" revision="m-caf" />
+  <project name="android_vendor_samsung_millet-common"              path="vendor/samsung/millet-common"  remote="sphere" revision="m-caf" />
+ </manifest>

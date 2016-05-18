@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device -->
+  <project name="android_device_motorola_falcon"              path="device/motorola/falcon"         remote="sub" revision="m-caf" />
+  <project name="android_device_motorola_msm8226-common"      path="device/motorola/msm8226-common" remote="sub" revision="m-caf" />
+  <!-- Vendor -->
+  <project name="android_vendor_motorola_falcon"              path="vendor/motorola/falcon"         remote="sub" revision="m-caf" />
+  <project name="android_vendor_motorola_msm8226-common"      path="vendor/motorola/msm8226-common" remote="sub" revision="m-caf" />
+  <!-- Kernel -->
+  <project name="android_kernel_motorola_msm8226"             path="kernel/motorola/msm8226"        remote="sub" revision="m-caf" />
+  <!-- DU -->
+  <project name="DirtyUnicorns/android_external_connectivity" path="external/connectivity"          remote="github" revision="m-caf" />
+  <project name="DirtyUnicorns/android_hardware_qcom_fm"      path="hardware/qcom/fm"               remote="github" revision="m-caf" />
+</manifest>
+
