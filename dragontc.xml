@@ -6,10 +6,12 @@
 	<remove-project name="android_build" />
 	<remove-project name="platform/frameworks/rs" />
 	<remove-project name="platform/prebuilts/ndk" />
+	<remove-project name="platform/external/v8" />
 	
-  <project name="android_build" path="build" remote="sub" revision="m-caf-dtc" />
-  <project name="android_frameworks_rs" path="frameworks/rs" remote="sub" revision="master" />
-  <project name="android_prebuilts_ndk" path="prebuilts/ndk" remote="sub" revision="master" />
+  <project name="android_build"         path="build"         remote="sub" revision="m-caf-dtc-test" />
+  <project name="android_frameworks_rs" path="frameworks/rs" remote="sub" revision="m-caf-dtc" />
+  <project name="android_prebuilts_ndk" path="prebuilts/ndk" remote="sub" revision="m-caf-dtc" />
+  <project name="external_v8"           path="external/v8"   remote="sub" revision="m-caf-dtc-test" />
   
   <project name="Prebuilts" path="prebuilts/clang/linux-x86/host/3.9" remote="sub" revision="3.9" />
 </manifest>
