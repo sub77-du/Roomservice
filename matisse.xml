@@ -9,8 +9,8 @@
   <project name="android_device_samsung_msm8226-common"              path="device/samsung/msm8226-common"  remote="sub" revision="m-caf" />
   <!-- Vendor -->
   <project name="android_vendor_samsung_matisse3g"                   path="vendor/samsung/matisse3g"       remote="sphere" revision="m-caf" />
-  <project name="android_vendor_samsung_matissewifi"                 path="vendor/samsung/matissewifi"     remote="sphere" revision="m-caf" />
-  <project name="android_vendor_samsung_matisse-common"              path="vendor/samsung/matisse-common"  remote="sphere" revision="m-caf" />
+  <project name="android_vendor_samsung_matissewifi"                 path="vendor/samsung/matissewifi"     remote="sub" revision="m-caf" />
+  <project name="android_vendor_samsung_matisse-common"              path="vendor/samsung/matisse-common"  remote="sub" revision="m-caf" />
   <!-- Kernel -->
   <project name="android_kernel_samsung_matisse"                     path="kernel/samsung/matisse"         remote="sphere" revision="m-caf" />
   </manifest>
