@@ -2,11 +2,13 @@
 <manifest>
 	 <remote name="sphere" fetch="ssh://git@git.sphere.ly/matisse" />
   <!-- Device -->
-  <project name="android_device_samsung_matissewifi"                 path="device/samsung/matissewifi"     remote="sub" revision="m-caf" />
   <project name="android_device_samsung_matisse3g"                   path="device/samsung/matisse3g"       remote="sphere" revision="m-caf" />
   <project name="android_device_samsung_matisselte"                  path="device/samsung/matisselte"      remote="sphere" revision="m-caf" />
+
+  <project name="android_device_samsung_matissewifi"                 path="device/samsung/matissewifi"     remote="sub" revision="m-caf" />
   <project name="android_device_samsung_matisse-common"              path="device/samsung/matisse-common"  remote="sub" revision="m-caf" />
   <project name="android_device_samsung_msm8226-common"              path="device/samsung/msm8226-common"  remote="sub" revision="m-caf" />
+
   <!-- Vendor -->
   <project name="android_vendor_samsung_matisse3g"                   path="vendor/samsung/matisse3g"       remote="sphere" revision="m-caf" />
   <project name="android_vendor_samsung_matissewifi"                 path="vendor/samsung/matissewifi"     remote="sub" revision="m-caf" />

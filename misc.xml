@@ -3,7 +3,7 @@
   <!-- Kernel -->
   <project name="android_kernel_samsung_mondrianwifi"                path="kernel/samsung/mondrianwifi"    remote="sphere" revision="mm6.0-matisse" />
   <!-- CM -->
-  <project name="android_device_samsung_qcom-common"                 path="device/samsung/qcom-common"     remote="du"     revision="m-caf" />
+  <project name="DirtyUnicorns/android_device_samsung_qcom-common"                 path="device/samsung/qcom-common"     remote="github"     revision="m-caf" />
   <project name="android_hardware_samsung"                           path="hardware/samsung"               remote="du"     revision="m-caf" />
   <project name="android_external_stlport"                           path="external/stlport"               remote="du"     revision="m-caf" />
   <project name="android_external_sony_boringssl-compat"             path="external/sony/boringssl-compat" remote="du"     revision="m-caf" />

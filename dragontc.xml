@@ -4,20 +4,17 @@
           fetch="ssh://git@github.com/sub77-du/" />
 
 	<remove-project name="android_build" />
-  <project name="android_build"            path="build"                    remote="sub" revision="DragonTC" />
-	<remove-project name="platform/prebuilts/ndk" />
-  <project name="android_prebuilts_ndk"    path="prebuilts/ndk"            remote="sub" revision="DragonTC" />
-	<remove-project name="platform/frameworks/rs" />
-  <project name="android_frameworks_rs"    path="frameworks/rs"            remote="sub" revision="DragonTC" />
-<!--
+	<remove-project name="platform/prebuilts/ndk" />	
+	<remove-project name="platform/frameworks/rs" />	
 	<remove-project name="platform/external/v8" />
     <remove-project name="platform/external/chromium-libpac" />
--->
+  
+  <project name="android_build"            path="build"                    remote="sub" revision="DragonTC" />
+  <project name="android_prebuilts_ndk"    path="prebuilts/ndk"            remote="sub" revision="DragonTC" />
+  <project name="android_frameworks_rs"    path="frameworks/rs"            remote="sub" revision="DragonTC" />
+  <project name="external_v8"              path="external/v8"              remote="sub" revision="DragonTC" />
+  <project name="external_chromium-libpac" path="external/chromium-libpac" remote="sub" revision="DragonTC" />  
 
-<!--
-  <project name="external_v8"              path="external/v8"              remote="sub" revision="m-caf-dtc" />
-  <project name="external_chromium-libpac" path="external/chromium-libpac" remote="sub" revision="m-caf-dtc" />  
--->
-  <project name="Prebuilts" path="prebuilts/clang/linux-x86/host/3.9" remote="sub" revision="3.9" />
+  <project name="Prebuilts" path="prebuilts/clang/linux-x86/host/3.9" remote="sub" revision="3.9-DragonTC-OPT-20160523" />
 
 </manifest>

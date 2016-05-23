@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+ <remote  name="dus"
+          fetch="ssh://git@github.com/sub77-du/" />
   <!-- Device -->
   <project name="android_device_motorola_falcon"              path="device/motorola/falcon"         remote="sub" revision="m-caf" />
   <project name="android_device_motorola_msm8226-common"      path="device/motorola/msm8226-common" remote="sub" revision="m-caf" />
