@@ -3,4 +3,6 @@
   <project name="DirtyUnicorns/android_device_samsung_ks01lte" path="device/samsung/ks01lte" remote="github" revision="m-caf" />
   <project name="DirtyUnicorns/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" revision="m-caf" />
   <project name="DirtyUnicorns/android_kernel_samsung_ks01lte" path="kernel/samsung/ks01lte" remote="github" revision="m-caf" />
+  <project name="DirtyUnicorns/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="m-caf" />
+  <project name="DirtyUnicorns/android_external_connectivity" path="external/connectivity" remote="github" revision="m-caf" />
 </manifest>
