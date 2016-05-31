@@ -11,7 +11,6 @@
   <!-- Kernel -->
   <project name="android_kernel_motorola_msm8226"             path="kernel/motorola/msm8226"        remote="sub" revision="m-caf" />
   <!-- DU -->
-  <project name="DirtyUnicorns/android_external_connectivity" path="external/connectivity"          remote="github" revision="m-caf" />
   <project name="DirtyUnicorns/android_hardware_qcom_fm"      path="hardware/qcom/fm"               remote="github" revision="m-caf" />
 </manifest>
 
