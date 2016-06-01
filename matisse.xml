@@ -15,5 +15,5 @@
   <project name="android_vendor_samsung_matisse-common"              path="vendor/samsung/matisse-common"  remote="sub" revision="m-caf" />
   <project name="vendor_extra"                                       path="vendor/extra"                   remote="sub" revision="m-caf" />
   <!-- Kernel -->
-  <project name="android_kernel_samsung_matisse"                     path="kernel/samsung/matisse"         remote="sphere" revision="m-caf" />
+  <project name="android_kernel_samsung_matisse"                     path="kernel/samsung/matisse"         remote="sub" revision="m-caf" />
   </manifest>
