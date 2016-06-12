@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <remote  name="sub"
+          fetch="ssh://git@github.com/sub77-du/" />
+ <remote  name="sphere"
+          fetch="ssh://git@git.sphere.ly/matisse" />
+</manifest>

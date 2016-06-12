@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+<remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+
+<remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+<remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" />
+<remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
+
+<remove-project name="platform/prebuilts/android-emulator" />
+
+<remove-project name="platform/prebuilts/qemu-kernel" />
+
+<remove-project name="platform/hardware/akm" />
+<remove-project name="android_hardware_broadcom_libbt" />
+<remove-project name="android_hardware_broadcom_wlan" />
+<remove-project name="platform/hardware/invensense" />
+<remove-project name="platform/hardware/marvell/bt" />
+<remove-project name="platform/hardware/mediatek" />
+<remove-project name="platform/hardware/ti/omap4-aah" />
+<!--
+<remove-project name="android_hardware_intel_common_libmix" />
+<remove-project name="android_hardware_intel_common_libva" />
+<remove-project name="android_hardware_intel_common_libwsbm" />
+<remove-project name="android_hardware_intel_common_omx-components" />
+<remove-project name="android_hardware_intel_img_hwcomposer" />
+<remove-project name="android_hardware_intel_img_psb_headers" />
+<remove-project name="android_hardware_intel_img_psb_video" />
+<remove-project name="android_hardware_intel/audio_media" />
+<remove-project name="android_hardware_intel/bootstub" />
+<remove-project name="android_hardware_intel/common/bd_prov" />
+<remove-project name="android_hardware_intel/common/libstagefrighthw" />
+<remove-project name="android_hardware_intel/common/utils" />
+<remove-project name="android_hardware_intel/common/wrs_omxil_core" />
+<remove-project name="android_hardware_intel/sensors" />
+-->
+<!-- <remove-project name="platform/prebuilts/sdk" />
+build/core/java.mk:25: *** dalvik/dexgen: Invalid LOCAL_SDK_VERSION '4' Choices are: .  Останов.
+ -->
+<remove-project name="platform/developers/samples/android" />
+<remove-project name="platform/developers/build" />
+
+<remove-project name="platform/external/eclipse-windowbuilder" />
+<remove-project name="platform/external/eclipse-basebuilder" />
+<remove-project name="platform/prebuilts/eclipse" />
+
+</manifest>
