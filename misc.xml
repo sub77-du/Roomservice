@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Kernel -->
-  <project name="android_kernel_samsung_mondrianwifi"                path="kernel/samsung/mondrianwifi"    remote="sphere" revision="mm6.0-matisse" />
-  <!-- CM -->
-  <project name="DirtyUnicorns/android_device_samsung_qcom-common"   path="device/samsung/qcom-common"     remote="github"     revision="m-caf" />
-  <project name="android_hardware_samsung"                           path="hardware/samsung"               remote="du"     revision="m-caf" />
-  <project name="android_external_stlport"                           path="external/stlport"               remote="du"     revision="m-caf" />
-  <project name="android_external_sony_boringssl-compat"             path="external/sony/boringssl-compat" remote="du"     revision="m-caf" />
+  <!-- SAMSUNG -->
+  <project name="android_device_samsung_qcom-common"                 path="device/samsung/qcom-common"             remote="du"     revision="m-caf" />
   <project name="android_packages_apps_SamsungServiceMode"           path="packages/apps/SamsungServiceMode"       remote="du"     revision="m-caf" />
-  <project name="DirtyUnicorns/android_external_connectivity"        path="external/connectivity"                  remote="github"  revision="m-caf" /> 
+  <project name="android_hardware_samsung"                           path="hardware/samsung"                       remote="du"     revision="m-caf" />
+
+  <!-- CONNECTIVITY -->  
+  <project name="android_external_stlport"                           path="external/stlport"                       remote="du"     revision="m-caf" />
+  <project name="android_external_sony_boringssl-compat"             path="external/sony/boringssl-compat"         remote="du"     revision="m-caf" />
+  <project name="android_external_connectivity"                      path="external/connectivity"                  remote="du"     revision="m-caf" />
+
+  <!-- ANT -->
   <project name="android_external_ant-wireless_ant_native"           path="external/ant-wireless/ant_native"       remote="du" revision="m-caf" />
   <project name="android_external_ant-wireless_ant_service"          path="external/ant-wireless/ant_service"      remote="du" revision="m-caf" />
   <project name="android_external_ant-wireless_antradio-library"     path="external/ant-wireless/antradio-library" remote="du" revision="m-caf" />
 
   <!-- Other -->
-  <project name="DirtyUnicorns/android_device_samsung_ks01lte" path="device/samsung/ks01lte" remote="github" revision="m-caf" />
-  <project name="DirtyUnicorns/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" revision="m-caf" />
-  <project name="DirtyUnicorns/android_kernel_samsung_ks01lte" path="kernel/samsung/ks01lte" remote="github" revision="m-caf" />
+  <project name="android_device_samsung_ks01lte"                     path="device/samsung/ks01lte"                 remote="du" revision="m-caf" />
+  <project name="android_device_samsung_msm8974-common"              path="device/samsung/msm8974-common"          remote="du" revision="m-caf" />
+  <project name="android_kernel_samsung_ks01lte"                     path="kernel/samsung/ks01lte"                 remote="du" revision="m-caf" />
+  <project name="android_kernel_samsung_mondrianwifi"                path="kernel/samsung/mondrianwifi"            remote="sphere" revision="mm6.0-matisse" />
 
   <!-- Camera -->
    <remove-project name="android_packages_apps_Camera2" />
-    <project name="android_packages_apps_Camera2"     path="packages/apps/Camera2" remote="sub" revision="m" />
-    <project name="android_packages_apps_Snap"        path="packages/apps/Snap"    remote="sub" revision="m-caf" />    
-  </manifest>
+    <project name="android_packages_apps_Camera2"                    path="packages/apps/Camera2"                  remote="sub" revision="m" />
+    <project name="android_packages_apps_Snap"                       path="packages/apps/Snap"                     remote="du" revision="m-caf" />    
+    
+  <!-- FM -->
+  <project name="android_hardware_qcom_fm"                           path="hardware/qcom/fm"                       remote="du" revision="m-caf" />
+</manifest>

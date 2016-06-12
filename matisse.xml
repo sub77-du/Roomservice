@@ -24,4 +24,4 @@
 
   <!-- Kernel -->
   <project name="android_kernel_samsung_matisse"                     path="kernel/samsung/matisse"         remote="sub" revision="m-caf" />
-  </manifest>
+</manifest>

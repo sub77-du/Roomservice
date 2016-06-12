@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <remote  name="sub"
-          fetch="ssh://git@github.com/sub77-du/" />
-
 	<remove-project name="android_build" />
 	<remove-project name="platform/prebuilts/ndk" />	
 	<remove-project name="platform/frameworks/rs" />	
@@ -16,5 +13,4 @@
   <project name="external_chromium-libpac" path="external/chromium-libpac" remote="sub" revision="DragonTC" />  
 
   <project name="Prebuilts" path="prebuilts/clang/linux-x86/host/3.9" remote="sub" revision="3.9-DragonTC-OPT-20160523" />
-
 </manifest>
