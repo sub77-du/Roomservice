@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remove-project name="android_build" />
-	<remove-project name="platform/prebuilts/ndk" />	
-	<remove-project name="platform/frameworks/rs" />	
+<!--	<remove-project name="platform/prebuilts/ndk" />	-->
+<!--	<remove-project name="platform/frameworks/rs" />	-->
 	<remove-project name="platform/external/v8" />
     <remove-project name="platform/external/chromium-libpac" />
   
   <project name="android_build"            path="build"                    remote="sub" revision="DragonTC" />
-  <project name="android_prebuilts_ndk"    path="prebuilts/ndk"            remote="sub" revision="DragonTC" />
-  <project name="android_frameworks_rs"    path="frameworks/rs"            remote="sub" revision="DragonTC" />
+<!--  <project name="android_prebuilts_ndk"    path="prebuilts/ndk"            remote="sub" revision="DragonTC" />-->
+<!--  <project name="android_frameworks_rs"    path="frameworks/rs"            remote="sub" revision="DragonTC" />-->
   <project name="external_v8"              path="external/v8"              remote="sub" revision="DragonTC" />
   <project name="external_chromium-libpac" path="external/chromium-libpac" remote="sub" revision="DragonTC" />  
 
