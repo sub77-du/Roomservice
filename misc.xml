@@ -28,4 +28,11 @@
     
   <!-- FM -->
   <project name="android_hardware_qcom_fm"                           path="hardware/qcom/fm"                       remote="du" revision="m-caf" />
+
+  <!-- Gello -->
+  <project name="CyanogenMod/android_external_gello_build"           path="external/gello-build"                   remote="github" revision="cm-13.0" />
+  
+  <!-- Nano -->
+  <project name="CyanogenMod/android_external_nano"                  path="external/nano"                          remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_external_libncurses"            path="external/libncurses"                    remote="github" revision="cm-13.0" />
 </manifest>

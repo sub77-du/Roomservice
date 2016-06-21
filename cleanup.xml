@@ -16,8 +16,9 @@
 <remove-project name="platform/prebuilts/qemu-kernel" />
 
 <remove-project name="platform/hardware/akm" />
-<remove-project name="android_hardware_broadcom_libbt" />
-<remove-project name="android_hardware_broadcom_wlan" />
+<!--<remove-project name="android_hardware_broadcom_libbt" />-->
+<!--<remove-project name="android_hardware_broadcom_wlan" />-->
+
 <remove-project name="platform/hardware/invensense" />
 <remove-project name="platform/hardware/marvell/bt" />
 <remove-project name="platform/hardware/mediatek" />
@@ -37,7 +38,7 @@
 <remove-project name="android_hardware_intel/common/utils" />
 <remove-project name="android_hardware_intel/common/wrs_omxil_core" />
 <remove-project name="android_hardware_intel/sensors" />
--->
+ -->
 <!-- <remove-project name="platform/prebuilts/sdk" />
 build/core/java.mk:25: *** dalvik/dexgen: Invalid LOCAL_SDK_VERSION '4' Choices are: .  Останов.
  -->
