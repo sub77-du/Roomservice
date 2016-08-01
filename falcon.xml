@@ -8,6 +8,9 @@
   <project name="android_vendor_motorola_msm8226-common"      path="vendor/motorola/msm8226-common" remote="sub" revision="m-caf" />
   <!-- Kernel -->
   <project name="android_kernel_motorola_msm8226"             path="kernel/motorola/msm8226"        remote="sub" revision="m-caf" />
+  <project name="ThugLife_falcon"                             path="kernel/motorola/thug"           remote="sub" revision="m-caf" />
+  <!-- Old
   <project name="akhilnarang/ThugLife_falcon"                 path="kernel/motorola/thug"           remote="github" revision="master" />
+  -->
 </manifest>
 
