@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="packages_apps_OpenDelta"                    path="packages/apps/OpenDelta"                remote="sub" revision="m-caf" />
-</manifest>
+  <project name="packages_apps_RomAddon"                     path="packages/apps/RomAddon"                 remote="sub" revision="m-caf" />
+</manifest> 

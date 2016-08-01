@@ -4,4 +4,6 @@
           fetch="ssh://git@github.com/sub77-du/" />
  <remote  name="sphere"
           fetch="ssh://git@git.sphere.ly/matisse" />
+ <remote  name="bb"
+          fetch="https://bitbucket.org" />
 </manifest>

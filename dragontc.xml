@@ -12,5 +12,8 @@
   <project name="external_v8"              path="external/v8"              remote="sub" revision="DragonTC" />
   <project name="external_chromium-libpac" path="external/chromium-libpac" remote="sub" revision="DragonTC" />  
 
-  <project name="Prebuilts" path="prebuilts/clang/linux-x86/host/3.9" remote="sub" revision="3.9-DragonTC-OPT-20160523" />
+  <project name="Prebuilts" path="prebuilts/clang/linux-x86/host/3.9" remote="sub" revision="3.9-DragonTC-20160712" />
+  <project name="Prebuilts" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x-uber" remote="sub" revision="arm-linux-androideabi-5.3-uber" />
+  <project name="UBERTC/arm-linux-androideabi-5.3" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3-uber" remote="bb" revision="master" />
+
 </manifest>
