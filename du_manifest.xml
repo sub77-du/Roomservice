@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- BUILD -->
+  <remove-project name="android_build" />
+  <project name="android_build"                 path="build"             remote="sub"     revision="m-caf" />
 </manifest>
