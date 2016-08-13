@@ -2,5 +2,7 @@
 <manifest>
   <project name="packages_apps_OpenDelta"                    path="packages/apps/OpenDelta"                remote="sub" revision="m-caf" />
   <project name="OpenDelta_Server"                           path="delta"                                  remote="sub" revision="m-caf" />
+<!--
   <project name="RomAddon"                                   path="packages/apps/RomAddon"                 remote="sub" revision="m-caf" />
+-->
 </manifest> 
